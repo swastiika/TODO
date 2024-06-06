@@ -1,8 +1,13 @@
-body{
-    background-color: #638CB8;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-input{
+body {
+    background-color: #906abd;
+}
+
+input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -10,33 +15,40 @@ input{
 }
 
 input::placeholder {
-  color: #d3d3d3;
+    color: #d3d3d3;
 }
 
-.submit{
+.submit {
     background-color: #6BA3E8;
+    color: #fff; /* Optional: makes the text more readable */
+    border: none; /* Optional: removes default border */
+    padding: 12px 20px; /* Optional: consistent padding */
+    cursor: pointer; /* Optional: changes cursor to pointer */
 }
 
-.center-column{
-    width:600px;
+.center-column {
+    width: 600px;
     margin: 20px auto;
-    padding:20px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 3px;
-    box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);
 }
 
-.item-row{
+.item-row {
     background-color: #906abd;
     margin: 10px;
     padding: 20px;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
-    box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.75);
 }
 
-.btn-danger{
+.btn-danger {
     background-color: #ffae19;
     border-color: #e59400;
+    color: #fff; /* Optional: makes the text more readable */
+    padding: 12px 20px; /* Optional: consistent padding */
+    cursor: pointer; /* Optional: changes cursor to pointer */
 }
